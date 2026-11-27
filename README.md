@@ -50,4 +50,4 @@ colour is under the 3:1 contrast Orca requires.
 ## Licence
 
 MIT; see [LICENSE](LICENSE). The palette comes from the
-[One Dark theme for JetBrains IDEs](https://github.com/one-dark/jetbrains-one-dark-theme), MIT.
+[One Dark theme for JetBrains IDEs](https://github.com/one-dark/jetbrains-one-dark-theme) by Mark Skelton, ISC.
