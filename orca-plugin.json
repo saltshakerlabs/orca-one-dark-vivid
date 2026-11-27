@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-plugin.v2.schema.json",
+  "manifestVersion": 2,
+  "execution": "data",
+  "id": "one-dark-vivid",
+  "name": "One Dark Vivid",
+  "version": "0.1.0",
+  "description": "One Dark with the saturated palette of JetBrains' One Dark Vivid, in plain and italic variants, with a matching terminal palette.",
+  "license": "MIT",
+  "engines": { "orca": ">=1.4.246" },
+  "capabilities": [],
+  "contributes": {
+    "themes": [
+      { "id": "one-dark-vivid", "title": "One Dark Vivid", "path": "themes/one-dark-vivid.json" },
+      { "id": "one-dark-vivid-italic", "title": "One Dark Vivid Italic", "path": "themes/one-dark-vivid-italic.json" }
+    ],
+    "terminalThemes": [
+      { "id": "one-dark-vivid", "title": "One Dark Vivid", "path": "terminal/one-dark-vivid.json" }
+    ]
+  }
+}
