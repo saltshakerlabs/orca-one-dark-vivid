@@ -9,6 +9,11 @@ newer. The colors are those of One Dark Vivid in the One Dark theme for JetBrain
 
 Data only: the plugin runs no code and asks for no access.
 
+![Go code in the One Dark Vivid Italic theme](images/one-dark-vivid-italic.png)
+
+One Dark Vivid Italic. The Go highlighting is from
+[Go Syntax](https://github.com/saltshakerlabs/orca-go-syntax); Orca's own would show fewer colors.
+
 | Role | Color |
 | --- | --- |
 | Keywords | `#d55fde` |
