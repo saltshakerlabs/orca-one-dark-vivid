@@ -9,10 +9,15 @@ newer. The colors are those of One Dark Vivid in the One Dark theme for JetBrain
 
 Data only: the plugin runs no code and asks for no access.
 
-![Go code in the One Dark Vivid Italic theme](images/one-dark-vivid-italic.png)
+![Orca with CSS open, in the One Dark Vivid Italic theme](images/one-dark-vivid-italic.png)
 
-One Dark Vivid Italic. The Go highlighting is from
-[Go Syntax](https://github.com/saltshakerlabs/orca-go-syntax); Orca's own would show fewer colors.
+One Dark Vivid Italic, as the app and editor theme.
+
+| One Dark Vivid | One Dark Vivid Italic |
+| --- | --- |
+| ![TypeScript in One Dark Vivid](images/typescript-one-dark-vivid.png) | ![The same TypeScript in One Dark Vivid Italic](images/typescript-one-dark-vivid-italic.png) |
+
+TypeScript with Orca's own highlighting.
 
 | Role | Color |
 | --- | --- |
