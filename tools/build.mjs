@@ -2,7 +2,7 @@
 // Writes themes/*.json and terminal/*.json from one palette, so the plain and italic variants
 // differ only in font style. Run `node tools/build.mjs` after changing this file.
 //
-// The palette is One Dark Vivid as the One Dark theme for JetBrains IDEs defines it. Orca colours
+// The palette is One Dark Vivid as the One Dark theme for JetBrains IDEs defines it. Orca colors
 // code by asking the theme for a handful of TextMate scopes, one per token type, so the rules
 // below name exactly those scopes rather than the hundreds a VS Code theme lists.
 import { writeFileSync } from 'node:fs';
@@ -15,7 +15,7 @@ const c = {
   border: '#3e4452',
   text: '#bbbbbb',
   muted: '#a0a7b4',
-  // JetBrains has #5c6370, which is 2.3:1 on this background. Orca drops a code colour under 3:1
+  // JetBrains has #5c6370, which is 2.3:1 on this background. Orca drops a code color under 3:1
   // and shows its built-in one instead (green, for comments), so this is the same grey, lighter.
   comment: '#6f7887',
   caret: '#528bff',
@@ -119,7 +119,7 @@ const terminal = {
   },
 };
 
-// Orca's rule, from its theme code: a code colour needs 3:1 against the editor surface or it is
+// Orca's rule, from its theme code: a code color needs 3:1 against the editor surface or it is
 // ignored without a word. Fail here instead.
 const luminance = (hex) =>
   [1, 3, 5]

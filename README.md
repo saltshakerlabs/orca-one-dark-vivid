@@ -1,7 +1,7 @@
 # One Dark Vivid for Orca
 
 One Dark with a more saturated palette, for [Orca](https://github.com/stablyai/orca) 1.4.246 or
-newer. The colours are those of One Dark Vivid in the One Dark theme for JetBrains IDEs.
+newer. The colors are those of One Dark Vivid in the One Dark theme for JetBrains IDEs.
 
 - **One Dark Vivid**: app and editor theme.
 - **One Dark Vivid Italic**: the same, with comments and keywords in italics.
@@ -9,7 +9,7 @@ newer. The colours are those of One Dark Vivid in the One Dark theme for JetBrai
 
 Data only: the plugin runs no code and asks for no access.
 
-| Role | Colour |
+| Role | Color |
 | --- | --- |
 | Keywords | `#d55fde` |
 | Strings | `#89ca78` |
@@ -29,7 +29,7 @@ orca plugin install saltshakerlabs/orca-one-dark-vivid
 
 Then pick a theme in Settings → Appearance.
 
-Comments are lighter than the JetBrains theme's `#5c6370`: Orca ignores a code colour with less
+Comments are lighter than the JetBrains theme's `#5c6370`: Orca ignores a code color with less
 than 3:1 contrast against the editor background, and that grey is 2.3:1.
 
 ## Develop
@@ -42,12 +42,12 @@ orca plugin validate .
 orca plugin dev load .       # then pick the theme in Settings → Appearance
 ```
 
-Orca colours code by reducing every token to one of a few token types and asking the theme for one
-TextMate scope per type, so the rules list those scopes and nothing else. Orca takes a rule's colour
+Orca colors code by reducing every token to one of a few token types and asking the theme for one
+TextMate scope per type, so the rules list those scopes and nothing else. Orca takes a rule's color
 and its font style separately, each from the most specific rule that sets it. The build fails if a
-colour is under the 3:1 contrast Orca requires.
+color is under the 3:1 contrast Orca requires.
 
-## Licence
+## License
 
 MIT; see [LICENSE](LICENSE). The palette comes from the
 [One Dark theme for JetBrains IDEs](https://github.com/one-dark/jetbrains-one-dark-theme) by Mark Skelton, ISC.
