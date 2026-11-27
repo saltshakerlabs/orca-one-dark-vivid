@@ -21,6 +21,14 @@ Data only: the plugin runs no code and asks for no access.
 | Comments | `#6f7887` |
 | Text | `#bbbbbb` on `#282c34` |
 
+## Install
+
+```sh
+orca plugin install saltshakerlabs/orca-one-dark-vivid
+```
+
+Then pick a theme in Settings → Appearance.
+
 Comments are lighter than the JetBrains theme's `#5c6370`: Orca ignores a code colour with less
 than 3:1 contrast against the editor background, and that grey is 2.3:1.
 
